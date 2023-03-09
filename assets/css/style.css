@@ -44,6 +44,7 @@ nav {
     flex: 1 1 100vw;
     height: 100px;
     align-items: center;
+    justify-content: center;
     background-color: #191970;
 }
 
@@ -68,7 +69,6 @@ nav ul li {
 }
 
 nav ul li a {
-    display: inline-block;
     padding: 10px 0;
     width: 100%;
     font-size: 24px;
