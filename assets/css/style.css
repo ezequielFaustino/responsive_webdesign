@@ -145,3 +145,19 @@ section#services div {
 section#services div p {
     font-size: 14px;
 }
+
+section#photos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 20px;
+}
+
+section#photos h2 {
+    margin-bottom: 20px;
+}
+
+section#photos img {
+    padding-top: 20px;
+    width: 80%;
+}
