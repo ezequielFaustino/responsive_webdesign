@@ -7,14 +7,17 @@
     box-sizing: border-box;
 }
 
-body, html {
+body,
+html {
     height: 100vh;
     width: 100vw;
     font-family: 'Open Sans', sans-serif;
     color: #1c1c1c;
 }
 
-h1, h2, h3 {
+h1,
+h2,
+h3 {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
@@ -63,3 +66,27 @@ nav ul li a {
 nav ul li a:hover {
     color: #2847b6;
 }
+
+/* Header */
+header#top {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url("../images/camera.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: #ffffff;
+    text-align: center;
+    padding: 20px;
+}
+
+header#top h1 {
+    font-weight: 800;
+}
+
+header#top p {
+    font-weight: 500;
+    margin-bottom: 2m;
+}
+
