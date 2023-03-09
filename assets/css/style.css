@@ -21,6 +21,14 @@ h3 {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
+.button {
+    padding: 10px 30px;
+    background-color: #f1f1f1;
+    color: #1c1c1c;
+    font-size: 0.9em;
+    border-radius: 3px;
+}
+
 a {
     text-decoration: none;
 }
@@ -90,3 +98,30 @@ header#top p {
     margin-bottom: 2m;
 }
 
+/* Sections */
+section#about {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 10px 10px 20px 20px;
+    background-color: #191970;
+    color: #ffffff;
+}
+
+section#about h2 {
+    font-weight: 800;
+}
+
+section#about p {
+    margin-bottom: 2em;
+    max-width: 1000px;
+}
+
+section#about .button {
+    transition: all 0.3s ease;
+}
+
+section#about .button:hover {
+    color: #2847b6;
+}
