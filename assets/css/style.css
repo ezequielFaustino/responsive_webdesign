@@ -7,10 +7,11 @@
     box-sizing: border-box;
 }
 
-body,
-html {
-    height: 100vh;
-    width: 100vw;
+body {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 3px;
+    flex: 1 1 100vw;
     font-family: 'Open Sans', sans-serif;
     color: #1c1c1c;
 }
