@@ -182,3 +182,20 @@ section#contact div a {
 section#contact div a:hover {
     color: #2847b6;
 }
+
+/* Rodape */
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #191970;
+    color: #ffffff;
+}
+
+footer a {
+    color: #00ffff;
+    transition: all 0.3s ease;
+}
+
+footer a:hover {
+    color: #2847b6;
+}
