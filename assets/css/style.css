@@ -199,3 +199,30 @@ footer a {
 footer a:hover {
     color: #2847b6;
 }
+
+/* media queries para tablets */
+
+@media screen and (min-width: 768px) {
+    /* Navegacao */
+    nav {
+        flex-direction: row;
+        justify-content: space-around;
+        margin: 0 auto;
+    }
+
+    nav ul {
+        flex-direction: row;
+        width: 70%;
+    }
+
+    nav ul li a {
+        font-size: 1.1em;
+    }
+
+    /* Cabecalho */
+    header#top {
+        height: 600px;
+        height: 60vh;
+        justify-content: center;
+    }
+}
