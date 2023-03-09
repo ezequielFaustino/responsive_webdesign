@@ -16,7 +16,7 @@ body {
     color: #1c1c1c;
 }
 
-header, nav, footer, section {
+nav, header, section, footer {
     display: flex;
     margin: 3px;
 }
@@ -41,6 +41,7 @@ a {
 
 /* Navegacao */
 nav {
+    flex: 1 1 100vw;
     flex-direction: column;
     align-items: center;
     background-color: #191970;
@@ -82,6 +83,7 @@ nav ul li a:hover {
 
 /* Header */
 header#top {
+    flex: 1 1 100vw;
     flex-direction: column;
     align-items: center;
     background-image: url("../images/camera.jpg");
