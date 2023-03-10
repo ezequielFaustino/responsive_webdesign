@@ -173,6 +173,7 @@ section#contact div a:hover {
 
 /* Rodape */
 footer {
+    flex: 1 1 100vw;
     text-align: center;
     padding: 10px;
     background-color: #191970;
